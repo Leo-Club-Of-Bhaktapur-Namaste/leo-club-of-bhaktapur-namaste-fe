@@ -8,6 +8,7 @@ const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path={routes.EVENTS} Component={Home} />
                 <Route path={routes.HOME} Component={Home} />
             </Routes>
         </BrowserRouter>
