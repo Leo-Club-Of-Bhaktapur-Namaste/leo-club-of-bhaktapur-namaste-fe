@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "526c0fdd3c127bb2f7193ab783f0b546",
+    "revision": "70c14a330141948c1b75aec974596d9f",
     "url": "/leo-club-of-bhaktapur-namaste-fe/index.html"
   },
   {
