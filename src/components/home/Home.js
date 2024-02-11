@@ -7,11 +7,11 @@ const Home = () => {
         <div className="wrapper home-page">
             <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} showArrows={true}>
                 <div>
-                    <img src="images/426501528_1672895289903074_4381525413166465763_n.jpg" alt="leo"/>
+                    <img src="images/youth.jpg" alt="leo"/>
                     {/* <p className="legend">Youth Forum</p> */}
                 </div>
                 <div>
-                    <img src="images/415783691_2962701177194124_6832084474580860802_n.jpg" alt="leo" />
+                    <img src="images/men.jpg" alt="leo" />
                     {/* <p className="legend">Embracing Menstrual Hygiene</p> */}
                 </div>
             </Carousel>
