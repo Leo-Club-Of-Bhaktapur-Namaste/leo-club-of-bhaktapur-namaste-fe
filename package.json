@@ -1,7 +1,7 @@
 {
   "name": "leo-club-of-bhaktapur-namaste-fe",
   "version": "0.1.0",
-  "homepage": "https://Leo-Club-Of-Bhaktapur-Namaste.github.io/",
+  "homepage": "https://Leo-Club-Of-Bhaktapur-Namaste.github.io/leo-club-of-bhaktapur-namaste-fe",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
