@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b9245a7b8a7274edab220aee9b6dec2",
+    "revision": "4245306dd1cc3adb86801c6cb55e84f4",
     "url": "/leo-club-of-bhaktapur-namaste-fe/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.fe62fa80.chunk.css"
   },
   {
-    "revision": "3a4594832fd2f01b2ddb",
+    "revision": "387b97f03d71957a47b4",
     "url": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.1a15cf66.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.d7c7d81b.chunk.js"
   },
   {
-    "revision": "3a4594832fd2f01b2ddb",
-    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.7ef6e801.chunk.js"
+    "revision": "387b97f03d71957a47b4",
+    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.00170171.chunk.js"
   },
   {
     "revision": "d2b2740a4a1c323339ed",
