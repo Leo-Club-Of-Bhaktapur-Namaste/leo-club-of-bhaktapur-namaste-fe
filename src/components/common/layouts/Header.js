@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
 
-const pages = ['Events', 'Awards', 'Blogs'];
+const pages = ['Events', 'Awards', 'Blog', 'Bods'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Header() {

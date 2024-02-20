@@ -6,6 +6,7 @@ import Home from 'components/home';
 import Header from 'components/common/layouts/Header';
 import Awards from 'components/awards/Awards';
 import AwardDetail from 'components/awards/AwardDetail';
+import Bods from 'components/pages/Bods/Bods';
 
 const Router = () => {
     return (
@@ -15,6 +16,7 @@ const Router = () => {
                 <Route path={routes.AWARDS} element={<><Header /><Awards /></>} />
                 <Route path={routes.AWARD_DETAIL} element={<><Header /><AwardDetail /></>} />
                 <Route path={routes.HOME} element={<><Header /><Home /></>} />
+                <Route path={routes.BODS} Component={<><Header /><Bods /></>} />
             </Routes>
         </BrowserRouter>
     )
