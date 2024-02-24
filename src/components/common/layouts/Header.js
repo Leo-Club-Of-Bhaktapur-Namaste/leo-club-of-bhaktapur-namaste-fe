@@ -11,13 +11,15 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import { useNavigate } from 'react-router-dom';
 
-const pages = ['Events', 'Awards', 'Blog'];
+const pages = ['Events', 'Awards', 'Blogs'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const navigate = useNavigate();
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -38,12 +40,12 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img src="images/leo.png" alt="namaste" className='header-logo' />
+          <img onClick={() => navigate("/")} src="images/leo.png" alt="namaste" className='header-logo' />
           <Typography
             variant="h6"
+            onClick={() => { navigate("/") }}
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -62,8 +64,8 @@ function Header() {
               size="large"
               aria-label="account of current user"
               aria-controls="menu-appbar"
+              onClick={() => { handleOpenNavMenu(); navigate("/") }}
               aria-haspopup="true"
-              onClick={handleOpenNavMenu}
               color="inherit"
             >
               <MenuIcon />
@@ -97,6 +99,7 @@ function Header() {
             variant="h5"
             noWrap
             component="a"
+            onClick={() => navigate("/")}
             href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
@@ -115,7 +118,10 @@ function Header() {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick={() => {
+                  handleCloseNavMenu();
+                  navigate("/"+page.toLowerCase())
+                }}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}

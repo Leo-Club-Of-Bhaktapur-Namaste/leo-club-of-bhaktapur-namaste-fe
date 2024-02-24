@@ -35,8 +35,8 @@
 }
 
 .slider img {
-  max-height: 32rem;
-  object-fit: contain;
+  max-height: 100vh;
+  object-fit: cover;
 }
 
 .App-link {
@@ -50,4 +50,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.my-4 {
+  margin: 1.6rem 0px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.two-col-grid {
+  display: grid;
+  text-align: left;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+  max-width: 100%;
 }
