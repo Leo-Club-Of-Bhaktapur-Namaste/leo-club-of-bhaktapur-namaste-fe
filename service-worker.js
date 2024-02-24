@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/leo-club-of-bhaktapur-namaste-fe/precache-manifest.7fce0df6b53ae90d49be76a4c9c3d67d.js"
+  "/leo-club-of-bhaktapur-namaste-fe/precache-manifest.4ad438344192fd5a4b6eb1fd980dc16d.js"
 );
 
 self.addEventListener('message', (event) => {
