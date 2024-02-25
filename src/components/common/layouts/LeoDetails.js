@@ -50,14 +50,14 @@ const LionsLogo = () => {
             <Grid item>
                 <img
                     alt="Lions Club International"
-                    src="/images/logos/Lions_Clubs_International_logo.png"
+                    src="images/logos/Lions_Clubs_International_logo.png"
                     className="image"
                 />
             </Grid>
             <Grid item>
                 <img
                     alt="Bhaktapur Namaste Lions Club"
-                    src="/images/logos/lions_club_of_bhaktapur_namaste.png"
+                    src="images/logos/lions_club_of_bhaktapur_namaste.png"
                     className="image"
                 />
             </Grid>
@@ -71,14 +71,14 @@ const LeoLogos = () => {
             <Grid item>
                 <img
                     alt="Leo Club International"
-                    src="/images/logos/internaltional_leo_logo.png"
+                    src="images/logos/internaltional_leo_logo.png"
                     className="image"
                 />
             </Grid>
             <Grid item>
                 <img
                     alt="Bhaktapur Namaste Leo Club"
-                    src="/images/logos/namaste leo club copy.png"
+                    src="images/logos/namaste leo club copy.png"
                     className="image"
                 />
             </Grid>

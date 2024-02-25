@@ -38,7 +38,7 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters >
-          <img onClick={() => navigate("/")} src="/images/logos/namaste leo club copy.png" alt="namaste" className='header-logo' />
+          <img onClick={() => navigate("/")} src="images/logos/namaste leo club copy.png" alt="namaste" className='header-logo' />
           <Typography
             variant="h6"
             onClick={() => { navigate("/") }}
