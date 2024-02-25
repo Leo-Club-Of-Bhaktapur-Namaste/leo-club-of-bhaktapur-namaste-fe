@@ -5,7 +5,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import BodCard from './BodCard';
-import { Container, Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 
 const LyTab = (props) => {
 
@@ -33,7 +33,7 @@ const LyTab = (props) => {
 
 const TabContent = (props) => {
     return (
-        <Container maxWidth="xl">
+        <div>
             {Object.keys(props.data).map((element, index) => (
                 <TabPanel key={index} value={index}>
                     <Box sx={{ flexGrow: 1 }}>
@@ -47,8 +47,7 @@ const TabContent = (props) => {
                     </Box>
                 </TabPanel>
             ))}
-        </Container>
-
+        </div>
     )
 }
 

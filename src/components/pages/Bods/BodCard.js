@@ -3,9 +3,10 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Avatar } from '@mui/material';
+import { Avatar, Stack } from '@mui/material';
 import styled from '@emotion/styled';
 import EmailIcon from '@mui/icons-material/Email';
+import Link from '@mui/material/Link';
 
 
 const CustomAvatar = styled(Avatar)({
@@ -17,7 +18,7 @@ const CustomAvatar = styled(Avatar)({
   transform: 'translate(-50%, -50%)',
   width: '100px',
   height: '100px',
-  marginTop: '-15px',
+  marginTop: '-35px',
 })
 
 
@@ -31,8 +32,9 @@ const CustomCardBackGround = styled(CardMedia)({
 });
 
 export default function BodCard(props) {
+  let email = props.bod_details.email === "" ? "bhaktapurnamasteleoclub@gmail.com" : props.bod_details.email
   return (
-    <Card sx={{ maxWidth: 345, position: 'relative' }}>
+    <Card sx={{ maxWidth: 345, position: 'relative', height: 345 }}>
       {/* <CardMedia
         component="img"
         height="140"
@@ -52,19 +54,21 @@ export default function BodCard(props) {
       <CardContent sx={{
         marginTop: '45px'
       }}>
-        <Typography gutterBottom variant="h5" component="div">
-          {props.bod_details.name}
+        <Typography gutterBottom sx={{ fontSize: { xs: "1rem", md: "1.3rem" } }} component="div">
+          Leo {props.bod_details.name}
         </Typography>
-        <Typography variant="h6" color="text.secondary">
+        <Typography sx={{ fontSize: { xs: "1rem", md: "1.3rem" } }} color="text.secondary">
           {props.bod_details.position}
         </Typography>
 
-        <div style={{ display: 'flex', alignItems: 'center', width: '100%', justifyContent: 'center' }}>
-          <EmailIcon fontSize="small" style={{ marginRight: '5px' }} />
-          <Typography variant="body2" color="text.secondary" sx={{height: '1rem'}}>
-            {props.bod_details.email}
-          </Typography>
-        </div>
+        <Link href={`mailto:${email}`} underline="none">
+          <Stack direction={{ xs: 'column', md: 'row' }} spacing={0.5} alignItems="center" justifyContent="center">
+            <EmailIcon color="disabled" fontSize="small" style={{ marginRight: '5px' }} />
+            <Typography color="text.secondary" sx={{ fontSize: { xs: "0.85rem", md: "1rem" } }}>
+              {email}
+            </Typography>
+          </Stack>
+        </Link>
       </CardContent>
     </Card>
   );
