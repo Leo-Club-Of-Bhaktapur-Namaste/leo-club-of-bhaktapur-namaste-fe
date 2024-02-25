@@ -34,7 +34,7 @@ const CustomCardBackGround = styled(CardMedia)({
 export default function BodCard(props) {
   let email = props.bod_details.email === "" ? "bhaktapurnamasteleoclub@gmail.com" : props.bod_details.email
   return (
-    <Card sx={{ maxWidth: 345, position: 'relative', height: 345 }}>
+    <Card sx={{ maxWidth: 345, position: 'relative', height: 345 }} style={{borderRadius: "16px"}}>
       {/* <CardMedia
         component="img"
         height="140"
