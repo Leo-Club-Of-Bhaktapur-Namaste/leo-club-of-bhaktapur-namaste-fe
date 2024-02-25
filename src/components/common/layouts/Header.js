@@ -7,14 +7,12 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
 
-const pages = ['Events', 'Awards', 'Blogs'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = [{ label: 'Awards', value: 'awards' }, { label: 'BODs', value: 'bods' }, { label: 'Events', value: 'event' }, { label: 'Blogs', value: 'blogs' }, { label: 'About Us', value: 'about-us' }, { label: 'Contact Us', value: 'contact-us' }];
+// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -39,8 +37,8 @@ function Header() {
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          <img onClick={() => navigate("/")} src="images/leo.png" alt="namaste" className='header-logo' />
+        <Toolbar disableGutters >
+          <img onClick={() => navigate("/")} src="/images/logos/namaste leo club copy.png" alt="namaste" className='header-logo' />
           <Typography
             variant="h6"
             onClick={() => { navigate("/") }}
@@ -50,11 +48,12 @@ function Header() {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
+              fontWeight: 400,
+              letterSpacing: '.2rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
+            className='cursor-pointer'
           >
             LEO CLUB OF BHAKTAPUR NAMASTE
           </Typography>
@@ -89,8 +88,8 @@ function Header() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                <MenuItem key={page.value} onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">{page.label}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -98,6 +97,7 @@ function Header() {
           <Typography
             variant="h5"
             noWrap
+            className='cursor-pointer'
             component="a"
             onClick={() => navigate("/")}
             href="#app-bar-with-responsive-menu"
@@ -114,22 +114,22 @@ function Header() {
           >
             LEO CLUB OF BHAKTAPUR NAMASTE
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} style={{ display: 'flex', justifyContent: 'flex-end', }}>
             {pages.map((page) => (
               <Button
-                key={page}
+                key={page.value}
                 onClick={() => {
                   handleCloseNavMenu();
-                  navigate("/"+page.toLowerCase())
+                  navigate("/" + page.value)
                 }}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ m: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {page.label}
               </Button>
             ))}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src={null} />
@@ -157,7 +157,7 @@ function Header() {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>
