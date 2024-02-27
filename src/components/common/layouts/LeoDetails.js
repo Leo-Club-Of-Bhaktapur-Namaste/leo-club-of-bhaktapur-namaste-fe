@@ -2,6 +2,10 @@ import React from 'react';
 import { Divider, Grid, Typography, useMediaQuery } from '@mui/material';
 import './leo_details.css';
 import styled from '@emotion/styled';
+import Lions_Clubs_International_logo from '../../../assets/images/logos/Lions_Clubs_International_logo.png'
+import internaltional_leo_logo from '../../../assets/images/logos/internaltional_leo_logo.png'
+import lions_club_of_bhaktapur_namaste from '../../../assets/images/logos/lions_club_of_bhaktapur_namaste.png'
+import leo_club_of_bhaktapur_namaste from '../../../assets/images/logos/namaste leo club copy.png'
 
 const CustomText = styled(Typography)({
     typography: { sm: 'body1', xs: 'body2' }
@@ -50,14 +54,14 @@ const LionsLogo = () => {
             <Grid item>
                 <img
                     alt="Lions Club International"
-                    src="images/logos/Lions_Clubs_International_logo.png"
+                    src={Lions_Clubs_International_logo}
                     className="image"
                 />
             </Grid>
             <Grid item>
                 <img
                     alt="Bhaktapur Namaste Lions Club"
-                    src="images/logos/lions_club_of_bhaktapur_namaste.png"
+                    src={lions_club_of_bhaktapur_namaste}
                     className="image"
                 />
             </Grid>
@@ -71,14 +75,14 @@ const LeoLogos = () => {
             <Grid item>
                 <img
                     alt="Leo Club International"
-                    src="images/logos/internaltional_leo_logo.png"
+                    src={internaltional_leo_logo}
                     className="image"
                 />
             </Grid>
             <Grid item>
                 <img
                     alt="Bhaktapur Namaste Leo Club"
-                    src="images/logos/namaste leo club copy.png"
+                    src={leo_club_of_bhaktapur_namaste}
                     className="image"
                 />
             </Grid>

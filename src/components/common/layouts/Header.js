@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from 'react-router-dom';
+import loe_logo from '../../../assets/images/logos/namaste leo club copy.png'
 
 const pages = [{ label: 'Awards', value: 'awards' }, { label: 'BODs', value: 'bods' }, { label: 'Events', value: 'event' }, { label: 'Blogs', value: 'blogs' }, { label: 'About Us', value: 'about-us' }, { label: 'Contact Us', value: 'contact-us' }];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -38,7 +39,7 @@ function Header() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters >
-          <img onClick={() => navigate("/")} src="images/logos/namaste leo club copy.png" alt="namaste" className='header-logo' />
+          <img onClick={() => navigate("/")} src={loe_logo} alt="namaste" className='header-logo' />
           <Typography
             variant="h6"
             onClick={() => { navigate("/") }}
