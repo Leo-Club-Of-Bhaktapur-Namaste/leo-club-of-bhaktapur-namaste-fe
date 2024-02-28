@@ -10,6 +10,7 @@ const Bods = () => {
             <LeoDetails />
             <Container maxWidth="xl">
                 <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
+                    <h1>Bod Members</h1>
                     <CardContent>
                         <LyTab data={Data} />
                     </CardContent>
