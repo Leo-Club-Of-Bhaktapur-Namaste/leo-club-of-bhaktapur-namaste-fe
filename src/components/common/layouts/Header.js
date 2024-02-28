@@ -1,167 +1,134 @@
 import * as React from 'react';
+import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
+import CssBaseline from '@mui/material/CssBaseline';
+import Divider from '@mui/material/Divider';
+import Drawer from '@mui/material/Drawer';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
-import { useNavigate } from 'react-router-dom';
 import loe_logo from '../../../assets/images/logos/namaste leo club copy.png'
+import { useNavigate } from 'react-router-dom';
+import { Container, Stack } from '@mui/material';
 
-const pages = [{ label: 'Awards', value: 'awards' }, { label: 'BODs', value: 'bods' }, { label: 'Events', value: 'event' }, { label: 'Blogs', value: 'blogs' }, { label: 'About Us', value: 'about-us' }, { label: 'Contact Us', value: 'contact-us' }];
-// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const drawerWidth = 240;
+const pages = [{ label: 'Awards', value: 'awards' }, { label: 'BODs', value: 'bods' }, { label: 'Events', value: 'event' }, { label: 'About Us', value: 'about-us' }, { label: 'Contact Us', value: 'contact-us' }];
 
-function Header() {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  // const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+function Header(props) {
+  const { window } = props;
+  const [mobileOpen, setMobileOpen] = React.useState(false);
   const navigate = useNavigate();
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  // const handleOpenUserMenu = (event) => {
-  //   setAnchorElUser(event.currentTarget);
-  // };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
+  const handleDrawerToggle = () => {
+    setMobileOpen((prevState) => !prevState);
   };
 
-  // const handleCloseUserMenu = () => {
-  //   setAnchorElUser(null);
-  // };
+  const drawer = (
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+      <Typography variant="h6" sx={{ my: 2 }}>
+        <img onClick={() => navigate("/")} src={loe_logo} alt="namaste" className='header-logo' />
+      </Typography>
+      <Divider />
+      <List>
+        {pages.map((page) => (
+          <ListItem disablePadding key={page.value}
+            onClick={() => {
+              navigate("/" + page.value)
+            }}>
+            <ListItemButton sx={{ textAlign: 'center' }}>
+              <ListItemText primary={page.label} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
+
+  const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
-        <Toolbar disableGutters >
-          <img onClick={() => navigate("/")} src={loe_logo} alt="namaste" className='header-logo' />
-          <Typography
-            variant="h6"
-            onClick={() => { navigate("/") }}
-            noWrap
-            component="a"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 400,
-              letterSpacing: '.2rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-            className='cursor-pointer'
-          >
-            LEO CLUB OF BHAKTAPUR NAMASTE
-          </Typography>
+    <Box sx={{ display: 'flex' }}>
+      <CssBaseline />
+      <AppBar component="nav" position="sticky">
+        <Container maxWidth="xl">
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              onClick={() => { handleOpenNavMenu(); navigate("/") }}
-              aria-haspopup="true"
-              color="inherit"
-            >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: 'block', md: 'none' },
-              }}
-            >
-              {pages.map((page) => (
-                <MenuItem key={page.value} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page.label}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-          </Box>
-          <Typography
-            variant="h5"
-            noWrap
-            className='cursor-pointer'
-            component="a"
-            onClick={() => navigate("/")}
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            LEO CLUB OF BHAKTAPUR NAMASTE
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} style={{ display: 'flex', justifyContent: 'flex-end', }}>
-            {pages.map((page) => (
-              <Button
-                key={page.value}
-                onClick={() => {
-                  handleCloseNavMenu();
-                  navigate("/" + page.value)
-                }}
-                sx={{ m: 2, color: 'white', display: 'block' }}
+          <Stack direction="row" justifyContent="space-between" alignItems="center" spacing={2} py={1}>
+            <Stack direction="row" alignItems="center">
+              <IconButton
+                color="inherit"
+                aria-label="open drawer"
+                edge="start"
+                onClick={handleDrawerToggle}
+                sx={{ mr: 2, display: { sm: 'none' } }}
               >
-                {page.label}
-              </Button>
-            ))}
-          </Box>
-
-          {/* <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src={null} />
+                <MenuIcon />
               </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
+              <img onClick={() => navigate("/")} src={loe_logo} alt="namaste" className='header-logo' />
+              <Typography
+                variant="h6"
+                onClick={() => { navigate("/") }}
+                noWrap
+                component="a"
+                sx={{
+                  mr: 2,
+                  display: { xs: 'none', md: 'flex' },
+                  fontFamily: 'monospace',
+                  fontWeight: 400,
+                  letterSpacing: '.2rem',
+                  color: 'inherit',
+                  textDecoration: 'none',
+                }}
+                className='cursor-pointer'
+              >
+                LEO CLUB OF BHAKTAPUR NAMASTE
+              </Typography>
+            </Stack>
+            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+              {pages.map((page) => (
+                <Button
+                  key={page.value}
+                  onClick={() => {
+                    navigate("/" + page.value)
+                  }}
+                  sx={{ color: 'white' }}
+                >
+                  {page.label}
+                </Button>
               ))}
-            </Menu>
-          </Box> */}
-        </Toolbar>
-      </Container>
-    </AppBar>
+            </Box>
+          </Stack>
+        </Container>
+      </AppBar>
+      <nav>
+        <Drawer
+          container={container}
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{
+            keepMounted: true,
+          }}
+          sx={{
+            display: { xs: 'block', sm: 'none' },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+          }}
+        >
+          {drawer}
+        </Drawer>
+      </nav>
+    </Box>
   );
 }
+
+Header.propTypes = {
+  window: PropTypes.func,
+};
+
 export default Header;
