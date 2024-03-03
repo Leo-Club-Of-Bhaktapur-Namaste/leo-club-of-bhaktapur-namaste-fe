@@ -6,6 +6,7 @@ import Home from 'components/home';
 import Awards from 'components/awards/Awards';
 import Bods from 'components/Bods/Bods';
 import Header from 'components/common/layouts/Header';
+import AboutUs from 'components/AboutUs/AboutUs';
 
 const Router = () => {
     return (
@@ -17,8 +18,8 @@ const Router = () => {
                 {/* <Route path={routes.AWARD_DETAIL} element={<AwardDetail />} /> */}
                 <Route path={routes.HOME} element={<Home />} />
                 <Route path={routes.BODS} element={<Bods />} />
-                {/* <Route path={routes.BODS} element={<ContactUs />} />
-                <Route path={routes.BODS} element={<AboutUs />} /> */}
+                {/* <Route path={routes.BODS} element={<ContactUs />} /> */}
+                <Route path={routes.ABOUT_US} element={<AboutUs />} /> 
             </Routes>
         </BrowserRouter>
     )
