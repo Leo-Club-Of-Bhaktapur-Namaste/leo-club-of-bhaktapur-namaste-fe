@@ -1,19 +1,33 @@
 {
   "files": {
-    "main.css": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.26e0479b.chunk.css",
-    "main.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.8ecb48d4.chunk.js",
-    "main.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.8ecb48d4.chunk.js.map",
-    "runtime~main.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime~main.f2ad494e.js",
-    "runtime~main.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime~main.f2ad494e.js.map",
+    "main.css": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.420b9603.chunk.css",
+    "main.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.a8818602.chunk.js",
+    "main.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.a8818602.chunk.js.map",
+    "runtime-main.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime-main.94de79d3.js",
+    "runtime-main.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime-main.94de79d3.js.map",
     "static/css/2.fe62fa80.chunk.css": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.fe62fa80.chunk.css",
-    "static/js/2.247f7814.chunk.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.247f7814.chunk.js",
-    "static/js/2.247f7814.chunk.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.247f7814.chunk.js.map",
-    "static/js/3.9be12790.chunk.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.9be12790.chunk.js",
-    "static/js/3.9be12790.chunk.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.9be12790.chunk.js.map",
+    "static/js/2.da9901df.chunk.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.da9901df.chunk.js",
+    "static/js/2.da9901df.chunk.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.da9901df.chunk.js.map",
+    "static/js/3.847ad1d2.chunk.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.847ad1d2.chunk.js",
+    "static/js/3.847ad1d2.chunk.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.847ad1d2.chunk.js.map",
     "index.html": "/leo-club-of-bhaktapur-namaste-fe/index.html",
-    "precache-manifest.14fcd7e4e0050d92647b34ca819b7c35.js": "/leo-club-of-bhaktapur-namaste-fe/precache-manifest.14fcd7e4e0050d92647b34ca819b7c35.js",
+    "precache-manifest.9888ba9a91f5f1f7ac5be2872572a5f5.js": "/leo-club-of-bhaktapur-namaste-fe/precache-manifest.9888ba9a91f5f1f7ac5be2872572a5f5.js",
     "service-worker.js": "/leo-club-of-bhaktapur-namaste-fe/service-worker.js",
     "static/css/2.fe62fa80.chunk.css.map": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.fe62fa80.chunk.css.map",
-    "static/css/main.26e0479b.chunk.css.map": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.26e0479b.chunk.css.map"
-  }
+    "static/css/main.420b9603.chunk.css.map": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.420b9603.chunk.css.map",
+    "static/js/2.da9901df.chunk.js.LICENSE.txt": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.da9901df.chunk.js.LICENSE.txt",
+    "static/media/1658750357963.jpg": "/leo-club-of-bhaktapur-namaste-fe/static/media/1658750357963.39d8e08f.jpg",
+    "static/media/AMN04602.jpg": "/leo-club-of-bhaktapur-namaste-fe/static/media/AMN04602.00f9d7d8.jpg",
+    "static/media/Lions_Clubs_International_logo.png": "/leo-club-of-bhaktapur-namaste-fe/static/media/Lions_Clubs_International_logo.c4ee5417.png",
+    "static/media/internaltional_leo_logo.png": "/leo-club-of-bhaktapur-namaste-fe/static/media/internaltional_leo_logo.f62fea9e.png",
+    "static/media/lions_club_of_bhaktapur_namaste.png": "/leo-club-of-bhaktapur-namaste-fe/static/media/lions_club_of_bhaktapur_namaste.26975bb9.png",
+    "static/media/namaste leo club copy.png": "/leo-club-of-bhaktapur-namaste-fe/static/media/namaste leo club copy.6e788356.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94de79d3.js",
+    "static/css/2.fe62fa80.chunk.css",
+    "static/js/2.da9901df.chunk.js",
+    "static/css/main.420b9603.chunk.css",
+    "static/js/main.a8818602.chunk.js"
+  ]
 }

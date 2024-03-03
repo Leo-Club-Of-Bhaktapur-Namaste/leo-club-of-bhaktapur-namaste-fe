@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/leo-club-of-bhaktapur-namaste-fe/precache-manifest.14fcd7e4e0050d92647b34ca819b7c35.js"
+  "/leo-club-of-bhaktapur-namaste-fe/precache-manifest.9888ba9a91f5f1f7ac5be2872572a5f5.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/leo-club-of-bhaktapur-namaste-fe/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
