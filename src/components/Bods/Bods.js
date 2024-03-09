@@ -1,10 +1,13 @@
 import * as React from 'react';
-import LyTab from './Ly_tab';
 import LeoDetails from 'components/common/layouts/LeoDetails';
 import { Card, CardContent, Container } from '@mui/material';
-import Data from "../../data/bod_details.json";
+import bod_details from "../../data/bod_details.json";
+import LyTab from 'components/common/layouts/LyTab';
+import TabContent from 'components/common/layouts/TabContent';
+import BodCard from './BodCard';
 
 const Bods = () => {
+    const ly = Object.keys(bod_details)
     return (
         <div>
             <LeoDetails />
@@ -12,7 +15,11 @@ const Bods = () => {
                 <Card sx={{ boxShadow: 3, borderRadius: 2 }}>
                     <h1>Bod Members</h1>
                     <CardContent>
-                        <LyTab data={Data} />
+                        <LyTab tab_data={ly}>
+                            <TabContent data={bod_details}>
+                                <BodCard />
+                            </TabContent>
+                        </LyTab>
                     </CardContent>
                 </Card>
             </Container>

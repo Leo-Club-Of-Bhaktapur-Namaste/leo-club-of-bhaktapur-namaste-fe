@@ -32,13 +32,13 @@ const CustomCardBackGround = styled(CardMedia)({
 });
 
 export default function BodCard(props) {
-  let email = props.bod_details.email === "" ? "bhaktapurnamasteleoclub@gmail.com" : props.bod_details.email
+  let email = props.details.email === "" ? "bhaktapurnamasteleoclub@gmail.com" : props.details.email
   return (
-    <Card sx={{ maxWidth: 345, position: 'relative', height: 345 }} style={{borderRadius: "16px"}}>
+    <Card sx={{ maxWidth: 345, position: 'relative', height: 345 }} style={{ borderRadius: "16px" }}>
       {/* <CardMedia
         component="img"
         height="140"
-        image={props.bod_details.image}
+        image={props.details.image}
         alt="your-image-alt"
       /> */}
 
@@ -47,18 +47,18 @@ export default function BodCard(props) {
       />
 
       <CustomAvatar
-        alt={props.bod_details.name}
-        src={props.bod_details.image}
+        alt={props.details.name}
+        src={props.details.image}
       />
 
       <CardContent sx={{
         marginTop: '45px'
       }}>
         <Typography gutterBottom sx={{ fontSize: { xs: "1rem", md: "1.3rem" } }} component="div">
-          Leo {props.bod_details.name}
+          Leo {props.details.name}
         </Typography>
         <Typography sx={{ fontSize: { xs: "1rem", md: "1.3rem" } }} color="text.secondary">
-          {props.bod_details.position}
+          {props.details.position}
         </Typography>
 
         <Link href={`mailto:${email}`} underline="none">

@@ -1,163 +1,162 @@
 {
-    "LY 2022/23": [
-        {
-          "name": "Babin lama",
-          "position": "President",
-          "email": "lamababin262@gmail.com",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Babin_lama_immediate_past_president_hisfd7.png"
-        },
-        {
-          "name": "Bhesh Bdr. Thapa Magar",
-          "position": "President Advisor",
-          "email": "",
-          "image": ""
-        },
-        {
-          "name": "Turash Twayana",
-          "position": "Vice President",
-          "email": "",
-          "image": ""
-        },
-        {
-          "name": "Rina Pahiju",
-          "position": "Secretary",
-          "email": "rinapahiju@gmail.com",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rina_Pahiju_president_mco9ar.png"
-        },
-        {
-          "name": "Rukesh Basukala",
-          "position": "Treasurer",
-          "email": "rukeshbasukala@gmail.com",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rukesh_Basukala_1st_Vice_president_vfmcip.png"
-        },
-        {
-          "name": "Pramila Tulsibakhyo",
-          "position": "Club Director",
-          "email": "pramitulsi105@gmail.com",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Pramila_Tulsibakhyo_Club_director_gfoafx.png"
-        },
-        {
-          "name": "Muna Giri",
-          "position": "Intl. Service  Coordinator",
-          "email": "",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Muna_Giri_Club_Director_qcw24o.png"
-        },
-        {
-          "name": "Pramit Bajracharaya",
-          "position": "Intl. Service  Coordinator",
-          "email": "",
-          "image": ""
-        },
-        {
-          "name": "Rijjal Rimal",
-          "position": "Jt. Secretary",
-          "email": "rijalrimal8@gmail.com",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rijjal_Rimal_secretary_xcucxp.png"
-        },
-        {
-          "name": "Nilan Awal",
-          "position": "Jt. Treasurer",
-          "email": "nilan.awal53@gmail.com",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Nilan_Awal_2nd_Vice_president_qnliue.png"
-        },
-        {
-          "name": "Shila Koju",
-          "position": "Public Relation Officer",
-          "email": "",
-          "image": ""
-        },
-        {
-          "name": "Puja Lama",
-          "position": "Tailtwister",
-          "email": "puja29881@gmail.com",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Puja_Lama_Treasurer_qw7pah.png"
-        },
-        {
-          "name": "Yunisha Chhwaju",
-          "position": "Tamer",
-          "email": "itsmeakira20@gmail.com",
-          "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_yunisha_Chhwaju_jt._secretary_a81gop.png"
-        }
-      ],
-
-    "LY 2023/24": [
-        {
-            "name": "Rina Pahiju",
-            "position": "President",
-            "email": "rinapahiju@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rina_Pahiju_president_mco9ar.png"
-        },
-        {
-            "name": "Babin lama",
-            "position": "Immediate Past President",
-            "email": "lamababin262@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Babin_lama_immediate_past_president_hisfd7.png"
-        },
-        {
-            "name": "Rukesh Basukala",
-            "position": "1st Vice President",
-            "email": "rukeshbasukala@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rukesh_Basukala_1st_Vice_president_vfmcip.png"
-        },
-        {
-            "name": "Nilan Awal",
-            "position": "2nd Vice President",
-            "email": "nilan.awal53@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Nilan_Awal_2nd_Vice_president_qnliue.png"
-        },
-        {
-            "name": "Rijjal Rimal",
-            "position": "Secretary",
-            "email": "rijalrimal8@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rijjal_Rimal_secretary_xcucxp.png"
-        },
-        {
-            "name": "Puja Lama",
-            "position": "Treasurer",
-            "email": "puja29881@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Puja_Lama_Treasurer_qw7pah.png"
-        },
-        {
-            "name": "Pramila Tulsibakhyo",
-            "position": "Club Director",
-            "email": "pramitulsi105@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Pramila_Tulsibakhyo_Club_director_gfoafx.png"
-        },
-        {
-            "name": "Muna Giri",
-            "position": "Intl. Service  Coordinator",
-            "email": "",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Muna_Giri_Club_Director_qcw24o.png"
-        },
-        {
-            "name": "yunisha Chhwaju",
-            "position": "Jt. Secretary",
-            "email": "itsmeakira20@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_yunisha_Chhwaju_jt._secretary_a81gop.png"
-        },
-        {
-            "name": "Smriti Machamasi",
-            "position": "Jt. Treasurer",
-            "email": "machasmriti@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Smriti_Machamasi_Jt._Treasurer_tbg8ih.png"
-        },
-        {
-            "name": "Anit Koju",
-            "position": "Public Relation Officer",
-            "email": "anitkoju0@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Anit_Koju_Public_relation_officer_bcfc1o.png"
-        },
-        {
-            "name": "Manika Kasula",
-            "position": "Tail Twister",
-            "email": "kasulamanika00@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Manika_Kasula_Tail_Twister_ml3qq9.png"
-        },
-        {
-            "name": "Shreejan Duwal",
-            "position": "Tamer",
-            "email": "duwalshrijan@gmail.com",
-            "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Shreejan_Duwal_Tamer_bw3v0s.png"
-        }
-    ]
+  "LY 2023/24": [
+    {
+      "name": "Rina Pahiju",
+      "position": "President",
+      "email": "rinapahiju@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rina_Pahiju_president_mco9ar.png"
+    },
+    {
+      "name": "Babin lama",
+      "position": "Immediate Past President",
+      "email": "lamababin262@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Babin_lama_immediate_past_president_hisfd7.png"
+    },
+    {
+      "name": "Rukesh Basukala",
+      "position": "1st Vice President",
+      "email": "rukeshbasukala@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rukesh_Basukala_1st_Vice_president_vfmcip.png"
+    },
+    {
+      "name": "Nilan Awal",
+      "position": "2nd Vice President",
+      "email": "nilan.awal53@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Nilan_Awal_2nd_Vice_president_qnliue.png"
+    },
+    {
+      "name": "Rijjal Rimal",
+      "position": "Secretary",
+      "email": "rijalrimal8@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rijjal_Rimal_secretary_xcucxp.png"
+    },
+    {
+      "name": "Puja Lama",
+      "position": "Treasurer",
+      "email": "puja29881@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Puja_Lama_Treasurer_qw7pah.png"
+    },
+    {
+      "name": "Pramila Tulsibakhyo",
+      "position": "Club Director",
+      "email": "pramitulsi105@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Pramila_Tulsibakhyo_Club_director_gfoafx.png"
+    },
+    {
+      "name": "Muna Giri",
+      "position": "Intl. Service  Coordinator",
+      "email": "",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Muna_Giri_Club_Director_qcw24o.png"
+    },
+    {
+      "name": "yunisha Chhwaju",
+      "position": "Jt. Secretary",
+      "email": "itsmeakira20@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_yunisha_Chhwaju_jt._secretary_a81gop.png"
+    },
+    {
+      "name": "Smriti Machamasi",
+      "position": "Jt. Treasurer",
+      "email": "machasmriti@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Smriti_Machamasi_Jt._Treasurer_tbg8ih.png"
+    },
+    {
+      "name": "Anit Koju",
+      "position": "Public Relation Officer",
+      "email": "anitkoju0@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Anit_Koju_Public_relation_officer_bcfc1o.png"
+    },
+    {
+      "name": "Manika Kasula",
+      "position": "Tail Twister",
+      "email": "kasulamanika00@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Manika_Kasula_Tail_Twister_ml3qq9.png"
+    },
+    {
+      "name": "Shreejan Duwal",
+      "position": "Tamer",
+      "email": "duwalshrijan@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Shreejan_Duwal_Tamer_bw3v0s.png"
+    }
+  ],
+  "LY 2022/23": [
+    {
+      "name": "Babin lama",
+      "position": "President",
+      "email": "lamababin262@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Babin_lama_immediate_past_president_hisfd7.png"
+    },
+    {
+      "name": "Bhesh Bdr. Thapa Magar",
+      "position": "President Advisor",
+      "email": "",
+      "image": ""
+    },
+    {
+      "name": "Turash Twayana",
+      "position": "Vice President",
+      "email": "",
+      "image": ""
+    },
+    {
+      "name": "Rina Pahiju",
+      "position": "Secretary",
+      "email": "rinapahiju@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rina_Pahiju_president_mco9ar.png"
+    },
+    {
+      "name": "Rukesh Basukala",
+      "position": "Treasurer",
+      "email": "rukeshbasukala@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rukesh_Basukala_1st_Vice_president_vfmcip.png"
+    },
+    {
+      "name": "Pramila Tulsibakhyo",
+      "position": "Club Director",
+      "email": "pramitulsi105@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Pramila_Tulsibakhyo_Club_director_gfoafx.png"
+    },
+    {
+      "name": "Muna Giri",
+      "position": "Intl. Service  Coordinator",
+      "email": "",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Muna_Giri_Club_Director_qcw24o.png"
+    },
+    {
+      "name": "Pramit Bajracharaya",
+      "position": "Intl. Service  Coordinator",
+      "email": "",
+      "image": ""
+    },
+    {
+      "name": "Rijjal Rimal",
+      "position": "Jt. Secretary",
+      "email": "rijalrimal8@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rijjal_Rimal_secretary_xcucxp.png"
+    },
+    {
+      "name": "Nilan Awal",
+      "position": "Jt. Treasurer",
+      "email": "nilan.awal53@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Nilan_Awal_2nd_Vice_president_qnliue.png"
+    },
+    {
+      "name": "Shila Koju",
+      "position": "Public Relation Officer",
+      "email": "",
+      "image": ""
+    },
+    {
+      "name": "Puja Lama",
+      "position": "Tailtwister",
+      "email": "puja29881@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Puja_Lama_Treasurer_qw7pah.png"
+    },
+    {
+      "name": "Yunisha Chhwaju",
+      "position": "Tamer",
+      "email": "itsmeakira20@gmail.com",
+      "image": "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_yunisha_Chhwaju_jt._secretary_a81gop.png"
+    }
+  ]
 }
