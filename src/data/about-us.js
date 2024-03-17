@@ -1,6 +1,5 @@
 
 import leo_club_of_bhaktapur_namaste from '../assets/images/logos/namaste leo club copy.png'
-import youth from '../assets/images/image2.jpg'
 
 export const aboutTimeline = [
     {
@@ -9,23 +8,13 @@ export const aboutTimeline = [
         image: leo_club_of_bhaktapur_namaste
     },
     {
-        title: "Lions Club of Bhaktapur Namaste",
-        description: "Lions Club of Bhaktapur Namaste was established in 2020.\nBhaktapur Namaste Leo Club was sponsored by the club in 2021.\n\nA social organization, collaborated to serve community thru liins norms \"we serve\".",
-        image: youth
-    },
-    {
-        title: "2021-01-01",
+        title: "LY 2021/22",
         description: "Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here  \n\nEstd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here ",
-        image: youth
+        image: "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602280/Leo%20club%20Bods/Leo_Babin_lama_immediate_past_president_hisfd7.png"
     },
     {
-        title: "2023-01-01",
+        title: "LY 2023/24",
         description: "2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here \n\n 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here 2023 text here",
-        image: youth
-    },
-    {
-        title: "2024-01-01",
-        description: "2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 \n\n text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here 2024 text here",
-        image: youth
+        image: "https://res.cloudinary.com/dmx53ztyl/image/upload/v1689602282/Leo%20club%20Bods/Leo_Rina_Pahiju_president_mco9ar.png"
     }
 ]

@@ -33,7 +33,6 @@ const Footer = () => {
                     pages.map((page) => (
                         <Link
                             href={page.value}
-                            target="_blank"
                             rel="noopener noreferrer"
                             color="text.secondary"
                             underline="hover"
