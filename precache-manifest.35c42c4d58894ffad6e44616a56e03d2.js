@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f37d17bff987dfed854e6e3e8222ef1f",
+    "revision": "6d419c6458515ea5eb835aad48e8e826",
     "url": "/leo-club-of-bhaktapur-namaste-fe/index.html"
   },
   {
-    "revision": "67f678e732bb5e209d5c",
-    "url": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.fe62fa80.chunk.css"
+    "revision": "a25cc5b34fe4d8cb719b",
+    "url": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.66ce8986.chunk.css"
   },
   {
-    "revision": "5affa2c8e497b88a0c72",
-    "url": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.420b9603.chunk.css"
+    "revision": "00471f7dbad15bbf4326",
+    "url": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.626cbb9f.chunk.css"
   },
   {
-    "revision": "67f678e732bb5e209d5c",
-    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.884699cc.chunk.js"
+    "revision": "a25cc5b34fe4d8cb719b",
+    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.51851e49.chunk.js"
   },
   {
-    "revision": "56a4855449fd0306baca9372d95682cd",
-    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.884699cc.chunk.js.LICENSE.txt"
+    "revision": "5006a9b29e4f3345153b16a069c9a92c",
+    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.51851e49.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e24da11a34fe43a36344",
-    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.847ad1d2.chunk.js"
+    "revision": "2c85792c40e3defb21de",
+    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.8bb29c6b.chunk.js"
   },
   {
-    "revision": "5affa2c8e497b88a0c72",
-    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.860e658b.chunk.js"
+    "revision": "00471f7dbad15bbf4326",
+    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.31004cad.chunk.js"
   },
   {
-    "revision": "51b43045ec7eeb8cdb33",
-    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime-main.94de79d3.js"
+    "revision": "f016938b86dd4b775096",
+    "url": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime-main.aed393ee.js"
   },
   {
     "revision": "39d8e08f116fd00a16659d8ec17739b7",

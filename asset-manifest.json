@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.420b9603.chunk.css",
-    "main.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.860e658b.chunk.js",
-    "main.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.860e658b.chunk.js.map",
-    "runtime-main.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime-main.94de79d3.js",
-    "runtime-main.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime-main.94de79d3.js.map",
-    "static/css/2.fe62fa80.chunk.css": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.fe62fa80.chunk.css",
-    "static/js/2.884699cc.chunk.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.884699cc.chunk.js",
-    "static/js/2.884699cc.chunk.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.884699cc.chunk.js.map",
-    "static/js/3.847ad1d2.chunk.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.847ad1d2.chunk.js",
-    "static/js/3.847ad1d2.chunk.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.847ad1d2.chunk.js.map",
+    "main.css": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.626cbb9f.chunk.css",
+    "main.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.31004cad.chunk.js",
+    "main.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/main.31004cad.chunk.js.map",
+    "runtime-main.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime-main.aed393ee.js",
+    "runtime-main.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/runtime-main.aed393ee.js.map",
+    "static/css/2.66ce8986.chunk.css": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.66ce8986.chunk.css",
+    "static/js/2.51851e49.chunk.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.51851e49.chunk.js",
+    "static/js/2.51851e49.chunk.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.51851e49.chunk.js.map",
+    "static/js/3.8bb29c6b.chunk.js": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.8bb29c6b.chunk.js",
+    "static/js/3.8bb29c6b.chunk.js.map": "/leo-club-of-bhaktapur-namaste-fe/static/js/3.8bb29c6b.chunk.js.map",
     "index.html": "/leo-club-of-bhaktapur-namaste-fe/index.html",
-    "precache-manifest.e07256d223565c155b23a533b74c5dbd.js": "/leo-club-of-bhaktapur-namaste-fe/precache-manifest.e07256d223565c155b23a533b74c5dbd.js",
+    "precache-manifest.35c42c4d58894ffad6e44616a56e03d2.js": "/leo-club-of-bhaktapur-namaste-fe/precache-manifest.35c42c4d58894ffad6e44616a56e03d2.js",
     "service-worker.js": "/leo-club-of-bhaktapur-namaste-fe/service-worker.js",
-    "static/css/2.fe62fa80.chunk.css.map": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.fe62fa80.chunk.css.map",
-    "static/css/main.420b9603.chunk.css.map": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.420b9603.chunk.css.map",
-    "static/js/2.884699cc.chunk.js.LICENSE.txt": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.884699cc.chunk.js.LICENSE.txt",
+    "static/css/2.66ce8986.chunk.css.map": "/leo-club-of-bhaktapur-namaste-fe/static/css/2.66ce8986.chunk.css.map",
+    "static/css/main.626cbb9f.chunk.css.map": "/leo-club-of-bhaktapur-namaste-fe/static/css/main.626cbb9f.chunk.css.map",
+    "static/js/2.51851e49.chunk.js.LICENSE.txt": "/leo-club-of-bhaktapur-namaste-fe/static/js/2.51851e49.chunk.js.LICENSE.txt",
     "static/media/1658750357963.jpg": "/leo-club-of-bhaktapur-namaste-fe/static/media/1658750357963.39d8e08f.jpg",
     "static/media/AMN04602.jpg": "/leo-club-of-bhaktapur-namaste-fe/static/media/AMN04602.00f9d7d8.jpg",
     "static/media/Lions_Clubs_International_logo.png": "/leo-club-of-bhaktapur-namaste-fe/static/media/Lions_Clubs_International_logo.c4ee5417.png",
@@ -24,10 +24,10 @@
     "static/media/namaste leo club copy.png": "/leo-club-of-bhaktapur-namaste-fe/static/media/namaste leo club copy.6e788356.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.94de79d3.js",
-    "static/css/2.fe62fa80.chunk.css",
-    "static/js/2.884699cc.chunk.js",
-    "static/css/main.420b9603.chunk.css",
-    "static/js/main.860e658b.chunk.js"
+    "static/js/runtime-main.aed393ee.js",
+    "static/css/2.66ce8986.chunk.css",
+    "static/js/2.51851e49.chunk.js",
+    "static/css/main.626cbb9f.chunk.css",
+    "static/js/main.31004cad.chunk.js"
   ]
 }
