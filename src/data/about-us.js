@@ -14,11 +14,6 @@ export const aboutTimeline = [
         image: youth
     },
     {
-        title: "Leo clubs",
-        description: 'Leo clubs are a youth organization of Lions Clubs International.\n\nLeo clubs encourage youths to develop leadership qualities by participating in social service activities. They are dependent on a Lions club to sponsor and initiate a Leo club. Leo club members are addressed as "Leos."\nThey conduct various projects in the fields of health care, elders, children, disabled people, literacy and education, and self-development. Leos can raise funds by conducting fund-raising projects. They can conduct projects with another Leo club, sponsoring Lions club, or with an outside organization.\n\nLeo clubs are sponsored by Lions clubs and comprise an official program of Lions Clubs International.',
-        image: youth
-    },
-    {
         title: "2021-01-01",
         description: "Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here  \n\nEstd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here Estd: 2021 text here ",
         image: youth
