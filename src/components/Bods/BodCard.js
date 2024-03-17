@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Avatar, Stack } from '@mui/material';
+import { Avatar, Hidden, Stack } from '@mui/material';
 import styled from '@emotion/styled';
 import EmailIcon from '@mui/icons-material/Email';
 import Link from '@mui/material/Link';
@@ -18,7 +18,7 @@ const CustomAvatar = styled(Avatar)({
   transform: 'translate(-50%, -50%)',
   width: '100px',
   height: '100px',
-  marginTop: '-35px',
+  marginTop: '-30px',
 })
 
 
@@ -34,7 +34,7 @@ const CustomCardBackGround = styled(CardMedia)({
 export default function BodCard(props) {
   let email = props.details.email === "" ? "bhaktapurnamasteleoclub@gmail.com" : props.details.email
   return (
-    <Card sx={{ maxWidth: 345, position: 'relative', height: 345 }} style={{ borderRadius: "16px" }}>
+    <Card sx={{ maxWidth: 345, position: 'relative', height: '100%' }} style={{ borderRadius: "16px" }}>
       {/* <CardMedia
         component="img"
         height="140"
@@ -63,7 +63,9 @@ export default function BodCard(props) {
 
         <Link href={`mailto:${email}`} underline="none">
           <Stack direction={{ xs: 'column', md: 'row' }} spacing={0.5} alignItems="center" justifyContent="center">
-            <EmailIcon color="disabled" fontSize="small" style={{ marginRight: '5px' }} />
+            <Hidden smDown>
+              <EmailIcon color="disabled" fontSize="small" style={{ marginRight: '5px' }} />
+            </Hidden>
             <Typography color="text.secondary" sx={{ fontSize: { xs: "0.85rem", md: "1rem" } }}>
               {email}
             </Typography>

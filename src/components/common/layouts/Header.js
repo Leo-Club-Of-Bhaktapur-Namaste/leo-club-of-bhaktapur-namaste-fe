@@ -16,10 +16,9 @@ import Button from '@mui/material/Button';
 import loe_logo from '../../../assets/images/logos/namaste leo club copy.png'
 import { useNavigate } from 'react-router-dom';
 import { Container, Stack } from '@mui/material';
+import { pages } from 'data/nav_page';
 
 const drawerWidth = 240;
-const pages = [{ label: 'Awards', value: 'awards' }, { label: 'BODs', value: 'bods' }, { label: 'Events', value: 'event' }, { label: 'About Us', value: 'about-us' }, { label: 'Contact Us', value: 'contact-us' }];
-
 
 function Header(props) {
   const { window } = props;

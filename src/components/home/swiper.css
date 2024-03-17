@@ -3,6 +3,9 @@
     /*--swiper-navigation-top-offset: 50%;--swiper-navigation-sides-offset: 10px;--swiper-navigation-color: var(--swiper-theme-color);*/
 }
 
+.mySwiper{
+    padding: 5px;
+}
 
 .swiper {
     width: 100%;
