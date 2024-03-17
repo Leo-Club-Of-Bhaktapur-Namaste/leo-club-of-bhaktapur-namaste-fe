@@ -1,6 +1,6 @@
 
 import leo_club_of_bhaktapur_namaste from '../assets/images/logos/namaste leo club copy.png'
-import youth from '../assets/images/AMN04602.jpg'
+import youth from '../assets/images/image2.jpg'
 
 export const aboutTimeline = [
     {
