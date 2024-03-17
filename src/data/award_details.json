@@ -1,84 +1,84 @@
 {
   "LY 2023/24": [
     {
-      "id": 1,
-      "award_name": "Finest Vice President of trimester",
+      "ly": "LY 2023/24",
+      "award_name": "Finest Vice President of 1st trimester",
       "recived_by": "Rukesh Basukala",
-      "recived_from": "Leo District Council 325 G 1st Council Meeting"
+      "recived_from": "Leo District Council 325 G"
     },
     {
-      "id": 2,
+      "ly": "LY 2023/24",
       "award_name": "Finest Organiser of Hunger Relief in Leo Week Celebration",
       "recived_by": "Leo Club of Bhaktapur Namaste",
-      "recived_from": "Leo District Council 325 G 2nd Council Meeting"
+      "recived_from": "Leo District Council 325 G"
     },
     {
-      "id": 3,
+      "ly": "LY 2023/24",
       "award_name": "Finest Organiser of Diabetes Screening in Leo Week Celebration",
       "recived_by": "Leo Club of Bhaktapur Namaste",
-      "recived_from": "Leo District Council 325 G 2nd Council Meeting"
+      "recived_from": "Leo District Council 325 G"
     }
   ],
   "LY 2022/23": [
     {
-      "id": 4,
-      "award_name": "Best President of trimester",
-      "recived_by": "Babin Lama",
-      "recived_from": "Leo District Council 325 G 1st Council Meeting"
-    },
-    {
-      "id": 5,
-      "award_name": "Best Councillor",
-      "recived_by": "Babin Lama",
-      "recived_from": "Leo District Council 325 G 1st Council Meeting"
-    },
-    {
-      "id": 6,
-      "award_name": "Best club of trimester",
-      "recived_by": "Leo Club of Bhaktapur Namaste",
-      "recived_from": "Leo District Council 325 G 2nd Council Meeting"
-    },
-    {
-      "id": 7,
-      "award_name": "Best Secretary of trimester",
-      "recived_by": "Rina Pahiju",
-      "recived_from": "Leo District Council 325 G 2nd Council Meeting"
-    },
-    {
-      "id": 8,
-      "award_name": "Maximum Praticipation",
-      "recived_by": "Leo Club of Bhaktapur Namaste",
-      "recived_from": "Leo District Council 325 G 2nd Council Meeting"
-    },
-    {
-      "id": 9,
-      "award_name": "Best Secretary of trimester",
-      "recived_by": "Rina Pahiju",
-      "recived_from": "Leo District Council 325 G 3rd Council Meeting"
-    },
-    {
-      "id": 10,
-      "award_name": "Best Attire",
-      "recived_by": "Leo Club of Bhaktapur Namaste",
-      "recived_from": "Leo District Council 325 G 3rd Council Meeting"
-    },
-    {
-      "id": 11,
+      "ly": "LY 2022/23",
       "award_name": "Best Committee Chairman of the Year",
       "recived_by": "Babin lama",
       "recived_from": "Leo District Council 325 G"
     },
     {
-      "id": 12,
+      "ly": "LY 2022/23",
       "award_name": "Best Secretary of the Year",
       "recived_by": "Rina Pahiju",
       "recived_from": "Leo District Council 325 G"
     },
     {
-      "id": 13,
-      "award_name": "Best video Presenntation",
+      "ly": "LY 2022/23",
+      "award_name": "Best video Presentation",
       "recived_by": "Leo Club of Bhaktapur Namaste",
       "recived_from": "Mega International Megha Twining Project"
+    },
+    {
+      "ly": "LY 2022/23",
+      "award_name": "Best President of 1st trimester",
+      "recived_by": "Babin Lama",
+      "recived_from": "Leo District Council 325 G"
+    },
+    {
+      "ly": "LY 2022/23",
+      "award_name": "Best Councillor of 1st Council meeting",
+      "recived_by": "Babin Lama",
+      "recived_from": "Leo District Council 325 G"
+    },
+    {
+      "ly": "LY 2022/23",
+      "award_name": "Best club of 2nd trimester",
+      "recived_by": "Leo Club of Bhaktapur Namaste",
+      "recived_from": "Leo District Council 325 G"
+    },
+    {
+      "ly": "LY 2022/23",
+      "award_name": "Best Secretary of 2nd trimester",
+      "recived_by": "Rina Pahiju",
+      "recived_from": "Leo District Council 325 G"
+    },
+    {
+      "ly": "LY 2022/23",
+      "award_name": "Maximum Praticipation",
+      "recived_by": "Leo Club of Bhaktapur Namaste",
+      "recived_from": "Leo District Council 325 G 2nd Council meeting"
+    },
+    {
+      "ly": "LY 2022/23",
+      "award_name": "Best Secretary of 3rd trimester",
+      "recived_by": "Rina Pahiju",
+      "recived_from": "Leo District Council 325 G"
+    },
+    {
+      "ly": "LY 2022/23",
+      "award_name": "Best Attire of 3rd Council meeting",
+      "recived_by": "Leo Club of Bhaktapur Namaste",
+      "recived_from": "Leo District Council 325 G"
     }
   ]
 }

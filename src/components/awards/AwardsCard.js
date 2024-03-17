@@ -1,10 +1,9 @@
 import React from 'react';
-import { Card, CardActionArea, CardContent, CardMedia, Typography } from "@mui/material"
+import { Card, CardContent, CardMedia, Typography } from "@mui/material"
 
 const AwardCard = (props) => {
     return (
         <Card style={{ borderRadius: "16px", height: "100%" }}>
-            <CardActionArea>
                 <CardMedia
                     component="img"
                     height="180"
@@ -23,7 +22,6 @@ const AwardCard = (props) => {
                         {props.details.recived_from}
                     </Typography>
                 </CardContent>
-            </CardActionArea>
         </Card>
     )
 }

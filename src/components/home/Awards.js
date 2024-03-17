@@ -1,7 +1,8 @@
 import React from 'react';
-import { Card, CardActionArea, CardContent, CardMedia, Container, Typography } from "@mui/material";
-import { awards } from 'data/awards';
+import { Container } from "@mui/material";
+import award_details from '../../data/award_details.json';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import AwardCard from 'components/awards/AwardsCard';
 // Import Swiper styles
 import 'swiper/swiper.min.css'
 import 'swiper/swiper-element-bundle.css'
@@ -12,6 +13,10 @@ import './swiper.css'
 import { Autoplay, Navigation } from 'swiper';
 
 const Awards = () => {
+    const mergedData = Object.values(award_details).flatMap(arr => arr)
+    const award_data = mergedData.slice(0, 6);
+
+    console.log(award_data)
     return (
         <Container maxWidth="xl">
             <div className='wrapper'>
@@ -41,29 +46,9 @@ const Awards = () => {
                     modules={[Navigation, Autoplay]}
                     className="mySwiper"
                 >
-                    {awards.map((award, key) => (
+                    {award_data.map((award, key) => (
                         <SwiperSlide key={key}>
-                            <Card style={{ borderRadius: "16px" }}>
-                                <CardActionArea>
-                                    <CardMedia
-                                        component="img"
-                                        height="180"
-                                        image={award.image}
-                                        alt={award.title}
-                                    />
-                                    <CardContent>
-                                        <Typography gutterBottom variant="h5" component="div">
-                                            {award.title}
-                                        </Typography>
-                                        <Typography height={60} variant="body2" color="text.secondary" align='left'>
-                                            {award.description}
-                                        </Typography>
-                                        <Typography color="text.secondary" align='right'>
-                                            {award.date}
-                                        </Typography>
-                                    </CardContent>
-                                </CardActionArea>
-                            </Card>
+                            <AwardCard details={award} />
                         </SwiperSlide>
                     ))}
 
