@@ -2,7 +2,7 @@
   "short_name": "Leo Club Of Bhaktapur Namaste",
   "name": "Leo Club Of Bhaktapur Namaste",
   "icons": [{
-      "src": "images/logos/namaste leo club copy.png",
+      "src": "/src/assets/images/logos/namaste leo club copy.png",
       "type": "image/png",
       "sizes": "512x512"
     }
